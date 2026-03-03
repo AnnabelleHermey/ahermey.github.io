@@ -316,8 +316,8 @@ header nav a.active {
   align-content: center;
   gap: 14px;
   width: 100%;
-  max-width: none;
-  padding-right: 10px;
+  max-width: 720px;
+  margin: 0 auto;
 }
 
 .word-cloud span {
