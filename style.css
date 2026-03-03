@@ -283,7 +283,7 @@ header nav a.active {
 
 .skills-content {
   display: grid;
-  grid-template-columns: 340px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   align-items: start;
   max-width: 1320px;
   width: 100%;
@@ -291,8 +291,8 @@ header nav a.active {
 }
 
 .skills-text {
-  width: 340px;
-  max-width: 340px;
+  width: 100%;
+  max-width: none;
   justify-self: start;
 }
 
@@ -305,7 +305,7 @@ header nav a.active {
 .skills-text p {
   color: #ccc;
   line-height: 1.6;
-  max-width: 320px;
+  max-width: 360px;
   font-size: 0.9rem;
 }
 
@@ -317,7 +317,7 @@ header nav a.active {
   gap: 14px;
   width: 100%;
   max-width: 600px;
-  margin: 0 auto 0 0;
+  margin: 0 auto;
 }
 
 .word-cloud span {
